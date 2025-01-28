@@ -1,0 +1,15 @@
+/* src/components/styles/header.css */
+
+/* Add hover effect for user-btn submenu items */
+
+.user-dropdown a {
+    display: block;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .user-dropdown a:hover {
+    background-color: #ebf8ff; /* Light blue background */
+    color: #007acc; /* Dark blue text */
+  }

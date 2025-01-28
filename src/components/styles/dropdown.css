@@ -1,0 +1,43 @@
+    /* styles/dropdown.css */
+.user-dropdown {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: dropdownFade 0.2s ease forwards;
+  }
+  
+  @keyframes dropdownFade {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Additional hover effects */
+  .dropdown-link {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .dropdown-link:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: width 0.2s ease;
+  }
+  
+  .dropdown-link:hover:after {
+    width: 100%;
+  }
+  
+  /* Ensure the dropdown doesn't disappear when moving to it */
+  .user-btn:hover .user-dropdown {
+    display: block;
+  }

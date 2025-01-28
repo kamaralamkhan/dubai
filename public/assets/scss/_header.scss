@@ -1,0 +1,87 @@
+/* Add this CSS to your styles */
+
+.header-area {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .header-top {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+  }
+  
+  .header-navigation {
+    background-color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .primary-menu .row {
+    align-items: center;
+  }
+  
+  .site-branding {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .header-right-nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .user-btn .icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background: #333;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .main-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .nav-toggle-btn .navbar-toggler {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .nav-toggle-btn .navbar-toggler span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+  }
